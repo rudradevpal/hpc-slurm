@@ -8,7 +8,7 @@ set -Eeuo pipefail
 LOGFILE="/var/log/slurm_compute_setup.log"
 
 # controller hostname (login node)
-CONTROLLER_HOST="kc-1"
+CONTROLLER_HOST="km01"
 
 # hostname:ip format
 NODES=(
@@ -18,16 +18,13 @@ NODES=(
 "kc03:10.87.230.73"
 "kc04:10.87.230.74"
 "kc05:10.87.230.75"
-"kc06:10.87.230.76"
-"kc07:10.87.230.77"
-"kc08:10.87.230.78"
 )
 
 MUNGE_UID=2001
 SLURM_UID=2002
 
 SSH_USER="root"
-SSH_PASS="default"
+SSH_PASS="P@ssw0rd@123"
 
 ########################################
 # LOGGING + ERROR HANDLING
