@@ -20,10 +20,10 @@ NODES=(
 "kc08:10.87.230.78"
 )
 
-CLUSTER_NAME="hpctestcluster"
-PARTITION_NAME="debug"
-CPUS=2
-REAL_MEMORY=1957
+CLUSTER_NAME="kaimrc-hpc-cluster"
+PARTITION_NAME="compute"
+CPUS=96
+REAL_MEMORY=500000
 
 MUNGE_UID=2001
 SLURM_UID=2002
@@ -32,7 +32,7 @@ DB_USER="slurm"
 DB_PASS="slurm@1234"
 
 SSH_USER="root"
-SSH_PASS="default"
+SSH_PASS="P@ssw0rd@123"
 
 ########################################
 # LOGGING + ERROR HANDLING
