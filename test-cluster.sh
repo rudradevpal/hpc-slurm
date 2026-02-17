@@ -5,9 +5,9 @@ set -Eeuo pipefail
 # CONFIG
 #######################################
 
-SHARED_DIR="/mnt/hpcnfs/slurm_test"
+SHARED_DIR="/ddn/slurm_test"
 TEST_DIR="/tmp/slurm_cluster_test"
-MPI_PROCS=4
+MPI_PROCS=300
 
 log(){ echo "[INFO] $*"; }
 fail(){ echo "[ERROR] $*"; exit 1; }
