@@ -7,7 +7,7 @@ set -Eeuo pipefail
 
 SHARED_DIR="/ddn/slurm_test"
 TEST_DIR="/tmp/slurm_cluster_test"
-MPI_PROCS=300
+MPI_PROCS=1000
 
 log(){ echo "[INFO] $*"; }
 fail(){ echo "[ERROR] $*"; exit 1; }
