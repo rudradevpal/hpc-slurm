@@ -200,7 +200,7 @@ done
 ###################################
 # Run MPI using mpirun
 ###################################
-mpirun --allow-run-as-root \
+source /etc/profile && mpirun --allow-run-as-root \
        -np 4 \
        --hostfile $SHARED_DIR/machinefile \
        --mca btl self,tcp \
