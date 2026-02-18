@@ -259,7 +259,7 @@ log "===== SLURM CLUSTER TEST START ====="
 check_slurm
 check_nodes
 check_ssh
-install_mpi_on_nodes
+# install_mpi_on_nodes
 prepare_mpi
 run_mpi_test
 run_slurm_job
